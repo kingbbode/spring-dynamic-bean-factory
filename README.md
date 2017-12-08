@@ -18,7 +18,7 @@ public class MemcachedClientDynamicGenerator extends DynamicBeanGeneratorAdapter
     }
 ```
 
-If the connection fails and the bean(MemcachedClient) creation fails, the application loads normally.
+The application will load normally even though the connection fails and the bean(MemcachedClient) creation fails.
 
 ```java
 @Component
